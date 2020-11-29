@@ -1,0 +1,14 @@
+Olá,
+
+Alugumas considerações:
+
+- Utilizei o XAMPP para rodar no servidor local.
+- Dividi as pastas em scr e style, onde estão os códigos em javascript e o css, respectivamente
+- Adicionei uma pasata de screenshot com algumas imagens das páginas que desenvolvi.
+
+Basicamente isso, 
+
+Qualquer dúvida, estou à disposição.
+
+Nome: Pedro Souza
+Email: pedroh.soouza@gmail.com

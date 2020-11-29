@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/**----BOOTSTRAP-----*/
+
+.center{
+	max-width: 1368px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.p-3{
+	padding: 0.5rem!important;
+}
+
+.p-4{
+	padding: 1.5rem!important;
+}
+
+.p-5{
+    padding: 3.5rem!important;
+}
+
+img{
+    width:100%;
+	max-width: 600px;
+}
+
+/**-----ESTILIZAÇÃO SITE------*/
+
+/*HEADER*/
+
+header{
+    background-color: black;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 40px 0;
+
+}
+
+
+header .head{
+    font-size: 45pt;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header .texto{
+    font-size: 25pt;
+}
+
+/*---------------INÍCIO-------------------*/
+
+.Inicio{
+    background-color: rgb(231, 231, 231);
+}
+
+#title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.Inicio img{
+    border-radius: 20px;
+    min-width: 500px;
+}
+
+#bt-visu-aulas{
+    background-color: #4CAF50;
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-width: 300px;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 10px;
+    border-style: none;
+    justify-content: center;
+}
+
+#bt-visu-aulas:hover{
+    background-color: #7ac07c;
+    cursor: pointer;
+}
+
+/*---------------AULAS-------------------*/
+
+.Aulas{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Aulas h2{
+    font-size: 25pt;
+    text-transform: uppercase;
+}
+
+.Aulas li{
+    list-style: decimal;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.Aulas li:hover{
+    background-color: rgb(231, 231, 231);
+}
